@@ -84,6 +84,7 @@ syn match   gasOperator		/[+-/*=|&~<>]\|<=\|>=\|<>/
 syn region  gasComment		start=/\/\*/ end=/\*\//
 syn region  gasCommentSingle    start=/#/ end=/$/
 syn region  gasCommentSingle    start=/@/ end=/$/
+syn region  gasCommentSingle    start=/;/ end=/$/
 if exists('g:gasCppComments')
 	syn region  gasCommentSingle start=/\/\// end=/$/
 endif

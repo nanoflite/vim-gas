@@ -2,6 +2,12 @@
 
 This vim bundle adds advanced syntax highlighting for GNU as (AT&T).
 
+## Update fork
+
+Add ';' as comment starter
+
+## Readme
+
 This file defines a (almost) complete syntax for GNU as assembler. 
 
 My motivation in writing this was the lack of a complete, working syntax for this 
